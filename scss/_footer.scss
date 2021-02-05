@@ -1,0 +1,11 @@
+footer {
+    margin-top: 96px;
+    margin-bottom: 42px;
+    text-align: center;
+
+    p{
+        font-family: $font-Monserrat;
+        color: $dark-color-1;
+        @include caracteristicasTexto(600, normal, 14px, 17.07px, normal)
+    }
+}

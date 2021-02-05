@@ -1,0 +1,13 @@
+
+
+header {
+
+    margin-top: 20px;
+    
+    a {
+        font-family: $font-mono;
+        color: $dark-color-1;
+        text-decoration: none;
+        @include caracteristicasTexto(700, normal, 24px, 26px, -.08)
+    }
+}
