@@ -1,11 +1,12 @@
-
-
 header {
-
     margin-top: 20px;
+
+    @media (min-width: $mobile-size) {
+        margin-top: 40px;
+    }
     
     a {
-        font-family: $font-mono;
+        font-family: $font-Inconsolata;
         color: $dark-color-1;
         text-decoration: none;
         @include caracteristicasTexto(700, normal, 24px, 26px, -.08)

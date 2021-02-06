@@ -3,6 +3,11 @@ footer {
     margin-bottom: 42px;
     text-align: center;
 
+    @media (min-width: $mobile-size) {
+        margin: 0;
+        margin-bottom: 39px;
+    }
+
     p{
         font-family: $font-Monserrat;
         color: $dark-color-1;

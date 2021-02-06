@@ -1,6 +1,9 @@
-$mobile-size: 576px;
+$mobile-size: 940px;
+
 $font-mono: 'Space Mono', 'sans-serif';
 $font-Monserrat: 'Monserrat', 'sans-serif';
+$font-Inconsolata: 'Inconsolata', 'sans-serif';
+
 $dark-color-1: #333333;
 
 @mixin caracteristicasTexto($font-weight, $font-style, $font-size, $line-height, $letter-spacing) {
@@ -21,8 +24,22 @@ $dark-color-1: #333333;
     }
 }
 
+#main{
+    
+    @media (min-width: $mobile-size) {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 
 .content {
     margin-left: 24px;
     margin-right: 24px;
+
+    @media (min-width: $mobile-size) {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
 }
